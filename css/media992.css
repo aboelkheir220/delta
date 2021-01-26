@@ -1,0 +1,363 @@
+
+/* Large devices (desktops, 992px and up) */
+@media screen and   (max-width: 992px ) {
+
+  /* start heeader section */
+    .header .header-img img {
+      width: 127%;
+      height: 78%;
+      margin-top: 20px;
+  }
+  .header .nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 27px;
+    margin-left: 15px;
+    line-height: 2.7;
+  }
+  
+  .header .nav ul li {
+    margin-left: 10px;
+  }
+  .header .nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "Gothic";
+    font-size: 16px;
+  }
+  .nav ul form .form-control {
+    width: 103px;
+    height: 18px;
+    line-height: 0;
+    margin-top: -1%;
+    background: black;
+    border-radius: 20px;
+    margin-left: 15px;
+  }
+  form a{
+    margin-top: -5px;
+    color: white;
+    margin-left: 2px;
+  }
+  
+  /* start lets */
+  .lets {
+    position: absolute;
+    z-index: 3;
+    width: 44%;
+    top: 43%;
+    right: 8.4%;
+    text-align: start;
+    font-family: "Gothic";
+  }
+  .lets span:first-child {
+    font-size: 46px;
+    font-weight: 350;
+    display: block;
+  }
+  .lets span:last-child {
+    font-size: 63px;
+    display: block;
+    font-weight: 350;
+  }
+  .lets h2 {
+    font-size: 17.7px;
+    font-weight: 350;
+  }
+  .lets button {
+    background: black;
+    color: white;
+    padding: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 350;
+    float: right;
+    margin-right: 12%;
+    border: 0;
+    margin-top: 3px;
+  }
+  /* start about section */ 
+  .about {
+    position: absolute;
+    z-index: 3;
+    width: 320px;
+    right: 15%;
+    top: 101%;
+  }
+  .about h1 {
+    font-weight: 700;
+    font-size: 56px;
+    font-family: "Bebas";
+  }
+  .about p {
+    font-size: 15px;
+    font-family: "Gothic";
+  }
+  /* start consulting */
+  .consulting h1 {
+    position: absolute;
+    z-index: 9;
+    left: 6%;
+    top: 161%;
+    transform: rotate(331deg);
+    font-family: "Bebas";
+    font-weight: 900;
+    font-size: 36px;
+  
+  }
+  /* start hospital */
+  .hospital {
+    position: absolute;
+    z-index: 2;
+    left: 37%;
+    top: 165%;
+    transform: rotate(90deg);
+    width: 165px;
+  }
+  .hospital h2 {
+    font-size: 14px;
+    margin-top: -4px;
+  }
+  .hospital h1{
+    font-size: 32px;
+  }
+  /* start private */
+  .private {
+    position: absolute;
+    z-index: 9;
+    left: 40.7%;
+    text-align: start;
+    top: 189%;
+    width: 400px;
+  }
+  .private h1 {
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .private h2 {
+    font-size: 22px;
+    font-weight: 350;
+    color: #80c0e6;
+  }
+  /* start industrual */
+  .industrial {
+    position: absolute;
+    z-index: 2;
+    left: 22.8%;
+    top: 203.7%;
+    transform: rotate(90deg);
+    color: #36a8dc;
+    font-weight: 450;
+  }
+  
+  .industrial h1{
+    font-size: 36px;
+  }
+  /* start hotels */
+  .hotels {
+    position: absolute;
+    z-index: 4;
+    left: 15.2%;
+    text-align: end;
+    top: 192%;
+    width: 200px;
+  }
+  .hotels h2 {
+    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 41px;
+  }
+  .hotels h1 {
+    font-size: 25.7px;
+    font-weight: 450;
+    color: #64b74f;
+    margin-left: 0px;
+    text-align: end;
+    margin-right: 0;
+  }
+  /* start transportaion section */
+  .transportaion {
+    position: absolute;
+    z-index: 2;
+    left: 21.9%;
+    top: 217.5%;
+    transform: rotate(90deg);
+    width: 200px;
+    text-align: start;
+  }
+  .transportaion h1 {
+    font-weight: 400;
+    font-size: 32px;
+  }
+  /* start news section */
+  .news {
+    position: absolute;
+    z-index: 9;
+    right: -29%;
+    text-align: start;
+    top: 226%;
+    width: 400px;
+    color: white;
+    font-family: "Bebas";
+  }
+  .news h1 {
+    font-size: 56px;
+    font-weight: 600;
+  }
+  /* start footer section */
+  .footer {
+    position: absolute;
+    z-index: 9999;
+    top: 283%;
+    background: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    height: 70px;
+    padding-bottom: 0;
+  }
+  .footer img {
+  width: 100%;
+  height: 100%;
+  margin-left: 2px;
+  margin-top: 0;
+}
+  .footer .ul ul {
+    display: flex;
+    list-style: none;
+    margin-top: 19px;
+    margin-left: -38px;
+  }
+  .footer .ul ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Gothic";
+  
+  }
+  .footer .phone {
+    width: 15%;
+    display: flex;
+    margin-top: 23px;
+    font-size: 13px;
+  }
+  .footer .fa-phone {
+    margin-right: 7px;
+    line-height: 1.7;
+    margin-left: 13px;
+  }
+  .footer .mail {
+    width: 15%;
+    display: flex;
+    margin-top: 23px;
+    font-size: 12px;
+  }
+  .footer .fa-envelope {
+    margin-right: 5px;
+    margin-left: -12px;
+    line-height: 1.7;
+  }
+  /* start images */ 
+  .second {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: -153px;
+  }
+  .three img {
+    position: absolute;
+    z-index: 1;
+    top: 64%;
+    right: -528px;
+    overflow-x: hidden;
+    overflow: hidden;
+    transform: rotate(76deg);
+  }
+  .four img {
+    position: absolute;
+    z-index: 2;
+    right: 0%;
+    top: 86%;
+    height: 600px;
+    width: 267px;
+  }
+  .five img {
+    position: absolute;
+    z-index: 1;
+    left: 0%;
+    top: 182%;
+    width: 38%;
+    height: 61%;
+  }
+  .six img {
+    position: absolute;
+    z-index: 2;
+    right: -5%;
+    top: 198%;
+    width: 427px;
+  }
+  .seven img {
+    position: absolute;
+    z-index: 3;
+    right: -10px;
+    top: 226%;
+    width: 80%;
+    height: 57%;
+  }
+  .eight img {
+    position: absolute;
+    z-index: 2;
+    transform: rotate(-9deg);
+    top: 226%;
+    right: -221px;
+    width: 90%;
+    height: 46%;
+  }
+   /* start line section */
+.line-one {
+  position: absolute;
+  color: black;
+  z-index: 99999;
+  top: 97%;
+  left: -1%;
+  transform: rotate(-30deg);
+  font-family: 'Gothic';
+}
+.line-one span{
+  font-size: 100px;
+  font-weight: bolder;
+}
+.line-two {
+  position: absolute;
+  color: black;
+  z-index: 99999;
+  top: 130%;
+  right: -98px;
+  transform: rotate(225deg);
+  font-family: 'Gothic';
+}
+
+
+.line-two span{
+  font-size: 70px;
+  font-weight: bolder;
+}
+.line-three {
+  position: absolute;
+  color: black;
+  z-index: 99999;
+  top: 248%;
+  right: 23%;
+  right: 32%;
+  transform: rotate(154.4deg);
+  font-family: 'Gothic';
+}
+.line-three span{
+  font-size: 90px;
+  font-weight: bolder;
+} 
+  
+  }
+  
